@@ -102,7 +102,7 @@ But as you may know, making a fully-featured program in C without using `malloc`
 
 In C++, you probably should not use `malloc` since C++ has introduced dedicated operators (like keywords) for dynamic memory management.
 
-Find out what they are, and allocate an `int` and an **array of** `int` on the heap.
+You must allocate an `int` and an **array of** `int` on the heap.
 
 Do not use `malloc()` / `free()` or any memory management/allocators functions from the C library.
 
